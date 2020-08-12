@@ -28,7 +28,7 @@ app.use('/skills', skillsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  res.send("I gotta say I just don't know how to ever make that delete button happy. I tried everything I could and have been stuck here since Friday.</br> I rewrote the whole code and still could not make it work so here it is.</br> If you could help me understand it that would be great.</br>Error 404 btw.</br></br></br> (If you want to see the error log, just remove line 31 in server.js)")
+  //res.send("I gotta say I just don't know how to ever make that delete button happy. I tried everything I could and have been stuck here since Friday.</br> I rewrote the whole code and still could not make it work so here it is.</br> If you could help me understand it that would be great.</br>Error 404 btw.</br></br></br> (If you want to see the error log, just remove line 31 in server.js)")
   next(createError(404));
 });
 

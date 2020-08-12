@@ -25,8 +25,7 @@ function create(req, res) {
   res.redirect('/')
 }
 
-function deleteSkill() {
-  console.log(luigi);
-  Skill.deleteOne(req.params.id);
+function deleteSkill(req, res) {
+  Skill.killASkill(req.params.id);
   res.redirect('/');
 }
