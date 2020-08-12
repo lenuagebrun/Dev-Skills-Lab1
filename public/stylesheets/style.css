@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  text-align: center;
+  background: url('https://i.imgflip.com/11j34o.jpg');
+  background-size: cover;
+  color: deeppink;
+  font: 22px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #fbff00;
+}
+
+li {
+  list-style-type: none;
+}
+
+.delete-button {
+  background: deeppink;
+}
